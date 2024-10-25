@@ -12,14 +12,15 @@
     <form>
       <label>
         Add a Number to the Bank
-        <input id="number" name="number" type="number" />
+        <input id="numberInput" name="number" type="number" />
       </label>
-      <button>Add Number</button>
+      <button type="submit">Add Number</button>
     </form>
     <main>
       <section id="numberBank">
         <h2>Number Bank</h2>
-        <output></output>
+        <ul id="numberBankInput"></ul>
+        <output id="numberBankOutput"></output>
         <div>
           <button id="sortOne">Sort 1</button>
           <button id="sortAll">Sort All</button>
@@ -29,11 +30,13 @@
         <h2>Sorted Numbers</h2>
         <section id="odds">
           <h3>Odds</h3>
-          <output></output>
+          <ul id="oddNumbersInput"></ul>
+          <output id="oddOutput"></output>
         </section>
         <section id="evens">
           <h3>Evens</h3>
-          <output></output>
+          <ul id="evenNumbersInput"></ul>
+          <output id="evenOutput"></output>
         </section>
       </section>
     </main>
